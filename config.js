@@ -276,7 +276,7 @@ module.exports = {
     "engine_scripts": "backstop_data/engine_scripts/puppeteer",
     "html_report": "backstop_data/html_report"
   },
-  "report": [],
+  "report": ["CI"],
   "engine": "puppeteer",
   "engineOptions": {
     "args": ["--no-sandbox"],
